@@ -23,6 +23,11 @@ throw new Error('Simple sum failed')
 }
 
 
+if(orderTotal([])!==0)
+{
+throw new Error('Simple sum failed')
+}
+
 
 
 
