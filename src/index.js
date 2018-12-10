@@ -19,13 +19,13 @@ console.log(orderTotal(orders))
 
 if(orderTotal(orders)!==25)
 {
-throw new Error('Simple sum failed')
+throw new Error('Happy path failed!')
 }
 
 
 if(orderTotal([])!==0)
 {
-throw new Error('Simple sum failed')
+throw new Error('Empty order list must equals 0 !')
 }
 
 
