@@ -95,3 +95,4 @@ describe('Sum with shipping', () => {
     ).toBe(45)
   })
 })
+
